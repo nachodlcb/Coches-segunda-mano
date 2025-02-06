@@ -652,14 +652,14 @@ elif menu_lateral == "Tendencia de mercado":
 
 
         elif analisis_seleccionado == "Relación de los precios por comunidad autónoma":
-            st.markdown("### <b style='color:#A1753F; font-family: Cambria;'>Distribución de Precios por comunidad autónoma</b>", unsafe_allow_html=True)
             fig_precios_comunidad = px.scatter(
                 df_filtrado,
                 x='state',
                 y='price',
                 title="<b style='color:#A1753F; font-family: Cambria;'>Relación entre precios y comunidad autónoma</b>",
                 labels={'state': 'Comunidad Autónoma', 'price': 'Precio'},
-                height=600
+                height=600,
+                color_discrete_sequence=['#A1753F']
             )
             st.plotly_chart(fig_precios_comunidad)
 
@@ -711,10 +711,10 @@ elif menu_lateral == "Tendencia de mercado":
                 folium.CircleMarker(
                     location=[row['lat'], row['lon']],
                     radius=row['counts'] / 100,
-                    popup=f"{row['state']}: {row['counts']} anuncios",
-                    color='blue',
+                    popup=f"<span style='color:#A1753F'>{row['state']}: {row['counts']} anuncios</span>",
+                    color='#A1753F',
                     fill=True,
-                    fill_color='blue'
+                    fill_color='#A1753F'
                 ).add_to(m)
             folium_static(m)
 
