@@ -15,7 +15,7 @@ El proyecto se divide en varias secciones clave:
 
 2. **[Análisis Exploratorio de Datos (EDA)](EDA_car_price.ipynb)**: Exploración y visualización de los datos para identificar patrones y tendencias. Se utilizan histogramas, boxplots, gráficos de dispersión y mapas geográficos para analizar la distribución de precios, kilometraje, potencia, tipos de combustible y más.
 
-3. **[Modelo Predictivo](preprocesamiento.ipynb)**: Desarrollo de un modelo de regresión para predecir el precio de un vehículo en función de sus características. El modelo se entrena utilizando técnicas de machine learning y se evalúa mediante métricas como el R2 Score, MAE y RMSE.
+3. **[Modelo Predictivo](preprocesamiento.ipynb)**: Desarrollo de un modelo de regresión para predecir el precio de un vehículo en función de sus características. El modelo se entrena utilizando técnicas de machine learning y se evalúa mediante métricas como el R2 Score, MAE y RMSE. url = 'http://c46f109b-f399-4a88-a0b5-70030985f904.eastus2.azurecontainer.io/score' y api_key = 'uwwIMT6N69MOvr2GatGBtXMbwKPPOG1U'  
 
 4. **[Visualización Interactiva](cars.pbix)**: Creación de un panel de control interactivo utilizando Power BI, que permite a los usuarios explorar los datos y obtener insights personalizados.
 
