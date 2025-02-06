@@ -13,13 +13,13 @@ El proyecto se divide en varias secciones clave:
 
 1. **[Preprocesamiento de datos](preprocesamiento.ipynb)**: Limpieza y preparación de los datos para el análisis. Esto incluye la eliminación de valores nulos, duplicados y la transformación de variables categóricas y numéricas.
 
-2. **Análisis Exploratorio de Datos (EDA)**: Exploración y visualización de los datos para identificar patrones y tendencias. Se utilizan histogramas, boxplots, gráficos de dispersión y mapas geográficos para analizar la distribución de precios, kilometraje, potencia, tipos de combustible y más.
+2. **[Análisis Exploratorio de Datos (EDA)](EDA_car_price.ipynb)**: Exploración y visualización de los datos para identificar patrones y tendencias. Se utilizan histogramas, boxplots, gráficos de dispersión y mapas geográficos para analizar la distribución de precios, kilometraje, potencia, tipos de combustible y más.
 
-3. **Modelo Predictivo**: Desarrollo de un modelo de regresión para predecir el precio de un vehículo en función de sus características. El modelo se entrena utilizando técnicas de machine learning y se evalúa mediante métricas como el R2 Score, MAE y RMSE.
+3. **[Modelo Predictivo](preprocesamiento.ipynb)**: Desarrollo de un modelo de regresión para predecir el precio de un vehículo en función de sus características. El modelo se entrena utilizando técnicas de machine learning y se evalúa mediante métricas como el R2 Score, MAE y RMSE.
 
-4. **Visualización Interactiva**: Creación de un panel de control interactivo utilizando Power BI, que permite a los usuarios explorar los datos y obtener insights personalizados.
+4. **[Visualización Interactiva](cars.pbix)**: Creación de un panel de control interactivo utilizando Power BI, que permite a los usuarios explorar los datos y obtener insights personalizados.
 
-5. **Conclusiones y Recomendaciones**: Basado en el análisis de datos, se proporcionan recomendaciones estratégicas para mejorar la rentabilidad y el posicionamiento competitivo en el mercado de vehículos de segunda mano.
+5. **[Conclusiones y Recomendaciones "Streamlit](car_price.py)"**: Basado en el análisis de datos, se proporcionan recomendaciones estratégicas para mejorar la rentabilidad y el posicionamiento competitivo en el mercado de vehículos de segunda mano.
 
 ## Herramientas Utilizadas
 
@@ -30,3 +30,9 @@ El proyecto se divide en varias secciones clave:
 - **Streamlit**: Para la creación de aplicaciones web interactivas.
 - **Power BI**: Para la visualización interactiva de datos.
 - **Scikit-learn**: Para el desarrollo del modelo predictivo.
+
+Contribuciones
+Las contribuciones son bienvenidas. Si deseas contribuir a este proyecto, por favor abre un issue o envía un pull request.
+
+
+
