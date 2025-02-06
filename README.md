@@ -11,7 +11,7 @@ Este proyecto tiene como objetivo proporcionar una visión detallada y basada en
 
 El proyecto se divide en varias secciones clave:
 
-1. **Preprocesamiento de Datos**: Limpieza y preparación de los datos para el análisis. Esto incluye la eliminación de valores nulos, duplicados y la transformación de variables categóricas y numéricas.
+1. **[Preprocesamiento de datos](preprocesamiento.ipynb)**: Limpieza y preparación de los datos para el análisis. Esto incluye la eliminación de valores nulos, duplicados y la transformación de variables categóricas y numéricas.
 
 2. **Análisis Exploratorio de Datos (EDA)**: Exploración y visualización de los datos para identificar patrones y tendencias. Se utilizan histogramas, boxplots, gráficos de dispersión y mapas geográficos para analizar la distribución de precios, kilometraje, potencia, tipos de combustible y más.
 
